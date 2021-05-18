@@ -12,11 +12,7 @@ layout = html.Div([
                className='text-center font-weight-bold text-uppercase col-12 my-2'),
 
         dcc.Loading([
-            dcc.Graph(id='main_graph_1', className="col-12"),
-
-            dcc.Graph(id='main_graph_2', className="col-12"),
-
-            dcc.Graph(id='main_graph_3', className="col-12"),
+            #dcc.Graph(id='main_graph_1', className="col-12"),
             
         ]),
 
